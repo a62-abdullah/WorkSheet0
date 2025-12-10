@@ -11,7 +11,7 @@ int main() {
     int arr[3] = {10, 30, 2000};
     int *p = arr;
 
-    printf("\nArray contents and addresses:\n");
+    printf("\nArray contents and addresses:\n");//dont forget
     for(size_t i = 0; i < 3; ++i) {
         printf("arr[%zu] = %d\t address = %p\n", i, *(p + i), (p + i));
     }
